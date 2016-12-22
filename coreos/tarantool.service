@@ -1,0 +1,7 @@
+[Unit]
+Description=tarantool
+
+[Service]
+ExecStartPre=-/usr/bin/docker kill tarantool
+ExecStartPre=-/usr/bin/docker rm tarantool
+ExecStart=/usr/bin/docker run -rm -name tarantool 
