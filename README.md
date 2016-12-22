@@ -1,2 +1,2 @@
 # taranode
-Dockerfile with Taragraph database and Node JS runtime
+Dockerfile with Tarantool database and Node JS runtime
