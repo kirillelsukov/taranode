@@ -1,4 +1,0 @@
-type: parallel
-name: deploy
-steps:
-    service: taranode
