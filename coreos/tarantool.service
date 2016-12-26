@@ -1,5 +1,7 @@
 [Unit]
-Description=tarantool
+Description=tarantool-node
+After=docker.service
+Requires=docker.service
 
 [Service]
 ExecStartPre=-/usr/bin/docker kill tarantool
