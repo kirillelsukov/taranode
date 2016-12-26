@@ -1,5 +1,4 @@
 type: parallel
 name: deploy
 steps:
-    type: serial
-    name: copy
+    service: taranode

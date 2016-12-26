@@ -1,4 +1,4 @@
-app:
+taranode:
     build:
-        image: taranode
-        dockerfile: Dockerfile
+        image: taranode/taranode
+        dockerfile_path: Dockerfile
